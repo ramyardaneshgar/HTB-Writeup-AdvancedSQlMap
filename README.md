@@ -81,9 +81,6 @@ No, the previous walkthrough does not include the **Skills Assessment** section.
 
 ### **Skills Assessment**
 
----
-
-#### **Question 1: "What's the contents of table final_flag?"**
 
 ---
 
@@ -153,10 +150,6 @@ Retrieve the `final_flag` table's contents from the `production` database by exp
 
 ---
 
-#### **Question 2: "What's the flag from `/flag.txt`?"**
-
----
-
 **Objective**  
 Use SQLMap to read the contents of `/flag.txt` on the remote host by exploiting a GET parameter (`id`) and bypassing file access restrictions.
 
@@ -191,9 +184,6 @@ Use SQLMap to read the contents of `/flag.txt` on the remote host by exploiting 
      HTB{5up3r_u53r5_4r3_p0w3rful!}
      ```
 
----
-
-#### **Question 3: "Obtain an interactive OS shell and retrieve another flag."**
 
 ---
 
