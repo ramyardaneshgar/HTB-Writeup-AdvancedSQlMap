@@ -27,7 +27,7 @@ To exploit an SQL injection vulnerability in the `id` parameter of the POST requ
 3. **Understanding Anti-CSRF Protections**:  
    Anti-CSRF tokens are security features designed to ensure that HTTP requests are initiated by authenticated and authorized users. In this scenario, the application dynamically generates a token value, which SQLMap must dynamically parse and inject into its payloads.
 
-4. **Crafting the Exploit**:  
+4. **Creating the Exploit**:  
    I prepared the following SQLMap command, incorporating the `--csrf-token` flag to instruct SQLMap to dynamically handle the anti-CSRF token:
    ```bash
    sqlmap -u 'http://[target IP]:[target port]/case8.php' \
