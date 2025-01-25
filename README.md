@@ -47,7 +47,7 @@ To exploit an SQL injection vulnerability in the `id` parameter of the POST requ
    - The database: `testdb`
    - The table: `flag8`
 
-6. **Dumping Table Data**:  
+6. **The Table Data**:  
    SQLMap extracted and saved the contents of the `flag8` table:
    ```bash
    Database: testdb
@@ -75,7 +75,7 @@ To exploit an SQL injection vulnerability in the `id` parameter of the POST requ
    - Use strong, unpredictable anti-CSRF tokens and validate them on the server side.
    - Restrict database user privileges to minimize the impact of SQL injection.
 
-No, the previous walkthrough does not include the **Skills Assessment** section. However, I can create a similar detailed write-up for the Skills Assessment tasks. Here's a structured breakdown for those:
+
 
 ---
 
